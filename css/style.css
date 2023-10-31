@@ -1,3 +1,63 @@
+/****** General ***********/
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
+}
+
+.fa-solid {
+  color: var(--main-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 22px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.euro {
+  font-weight: 700;
+}
+
+.neutral-star {
+  color: var(--main-bg-color);
+}
+
 .invisible-desk {
   display: none;
 }
@@ -22,10 +82,11 @@ header {
   gap: 30px;
 }
 .header-menu a {
-  color: #0065fc;
+  padding-top: 10px;
 }
 .header-menu a:hover {
-  border-top: 1px solid #0065fc;
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
 }
 /* HEADER MENU FIN */
 /* headline */
@@ -143,65 +204,6 @@ header {
 }
 
 /* BARRE DE FILTRE FIN */
-/****** General ***********/
-* {
-  font-family: "Raleway", sans-serif;
-}
-
-:root {
-  --main-color: #0065fc;
-  --main-bg-color: #f2f2f2;
-  --filter-bg-color: #deebff;
-}
-
-.fa-solid {
-  color: var(--main-color);
-}
-
-body {
-  display: flex;
-  justify-content: center;
-}
-
-.main-container {
-  width: 100%;
-  max-width: 1440px;
-  padding: 0 50px;
-  box-sizing: border-box;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.section-title {
-  margin: 0;
-  font-size: 22px;
-}
-
-.card {
-  background-color: white;
-  border-radius: 20px;
-  padding: 5px;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-
-.card img {
-  object-fit: cover;
-}
-
-.card-title {
-  font-size: 16px;
-}
-
-.euro {
-  font-weight: 700;
-}
-
-.neutral-star {
-  color: var(--main-bg-color);
-}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -302,11 +304,9 @@ a {
   height: 380px;
 }
 .activités-wrap-contenu p {
-  /* padding: 20px 19px 20px 19px; */
   width: 100%;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  /* text-align: center; */
   padding-left: 19px;
 }
 
