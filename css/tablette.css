@@ -1,0 +1,28 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .activités-wrap-contenu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 25%;
+    height: 270px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .activités-wrap-contenu p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .activités-wrap-contenu img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    height: 200px;
+  }
+}
