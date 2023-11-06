@@ -97,7 +97,7 @@ header {
   padding-bottom: 35px;
 }
 
-.headline-titre H2 {
+.headline-titre h1 {
   font-size: 22px;
   font-weight: 700;
   margin: 0px;
@@ -127,6 +127,9 @@ header {
   border-right: 0px;
   background-color: #f2f2f2;
   width: 50px;
+}
+.barre-de-recherche-gauche i {
+  color: #000000;
 }
 .barre-de-recherche-centre {
   display: flex;
@@ -161,6 +164,9 @@ header {
   font-weight: bold;
   color: #f2f2f2;
 }
+.barre-de-recherche-boutton i {
+  color: azure;
+}
 /* BARRE DE RECHERCHE FIN */
 /* Bar de filtre  DEBUT*/
 .section-barre-de-filtre {
@@ -185,7 +191,6 @@ header {
   column-gap: 10px;
 }
 .barre-de-filtre-composant i {
-  /* padding-right: 10px; */
   color: #0065fc;
 }
 .barre-de-filtre-composant:hover {
@@ -228,6 +233,7 @@ header {
   font-size: 22px;
   font-weight: 700;
 }
+
 .hebergement-wrap {
   display: flex;
   flex-flow: row wrap;
@@ -367,6 +373,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   background-color: #f2f2f2;
+  margin-top: 35px;
 }
 .footer-wrap-contenu {
   display: flex;
